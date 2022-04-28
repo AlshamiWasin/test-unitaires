@@ -6,7 +6,7 @@ import {calculerPrixTotal} from "../app.js"
 
 
 describe("Checking if the panier is created correctly", function(){  
-    it("should create the user with the correct name", function(){
+    it("should calculate tva and total price", function(){
         debugger
         console.log(calculerTVA());
         console.log(calculerPrixTotal());
