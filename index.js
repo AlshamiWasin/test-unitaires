@@ -9,7 +9,7 @@ function ajouteraupanier(produit , quantite){
     }
 }
 
-ajouteraupanier(produit,2)
+
 
 function calculerTVA(){
     let tva = 0;
@@ -28,8 +28,7 @@ function calculerPrixTotal(){
     return PrixTotal
 }
 
-
-
+ajouteraupanier(produit,2)
 console.log(panier);
 console.log(calculerTVA());
 console.log(calculerPrixTotal());
