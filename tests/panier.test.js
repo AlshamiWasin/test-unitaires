@@ -1,7 +1,8 @@
 import should from "should"
-import {ajouteraupanier} from "./index.js"
-import {calculerTVA} from "./index.js"
-import {calculerPrixTotal} from "./index.js"
+
+import {calculerTVA} from "../app.js"
+import {calculerPrixTotal} from "../app.js"
+
 
 
 describe("Checking if the panier is created correctly", function(){  
