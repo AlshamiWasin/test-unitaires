@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "mocha tests"
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
   },
   "repository": {
     "type": "git",
@@ -19,9 +19,8 @@
   },
   "homepage": "https://github.com/AlshamiWasin/test-unitaires#readme",
   "dependencies": {
-    "mocha": "^9.2.2"
   },
   "devDependencies": {
-    "should": "^13.2.3"
+    "jest": "^28.0.2"
   }
 }
