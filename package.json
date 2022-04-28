@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/AlshamiWasin/test-unitaires/issues"
   },
-  "homepage": "https://github.com/AlshamiWasin/test-unitaires#readme"
+  "homepage": "https://github.com/AlshamiWasin/test-unitaires#readme",
+  "dependencies": {
+    "mocha": "^9.2.2"
+  },
+  "devDependencies": {
+    "should": "^13.2.3"
+  }
 }
