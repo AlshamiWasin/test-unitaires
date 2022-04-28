@@ -1,5 +1,5 @@
-produit = {nom: "T-shirt", prix: 15, poids: 0.5 ,couler: "rouge" , taille:'XL'};
-panier = [{produit:produit, quantite: 1}];
+let produit = {nom: "T-shirt", prix: 15, poids: 0.5 ,couler: "rouge" , taille:'XL'};
+let panier = [{produit:produit, quantite: 1}];
 
 
 
@@ -27,6 +27,6 @@ export function calculerPrixTotal(){
 }
 
 ajouteraupanier(produit,2)
-console.log(panier);
-console.log(calculerTVA());
-console.log(calculerPrixTotal());
+// console.log(panier);
+// console.log(calculerTVA());
+// console.log(calculerPrixTotal());
