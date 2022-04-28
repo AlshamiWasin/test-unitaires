@@ -26,7 +26,7 @@ export function calculerPrixTotal(){
     return PrixTotal
 }
 
-// ajouteraupanier(produit,2)
-// console.log(panier);
-// console.log(calculerTVA());
-// console.log(calculerPrixTotal());
+ajouteraupanier(produit,2)
+console.log(panier);
+console.log(calculerTVA());
+console.log(calculerPrixTotal());
